@@ -2,16 +2,36 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "type": "module",
   "scripts": {
     "start": "nodemon",
     "build": "tsc"
   },
   "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.11",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "globals": "^16.0.0",
     "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.14.0"
+  }
 }
